@@ -13,8 +13,8 @@ elif user_input == 4:
     print("%d corresponds with Thursday" % (user_input))
 elif user_input == 5:
     print("%d corresponds with Friday" % (user_input))
-elif user_input > 6:
-    print("Error: that number is greater than 6")
-else:
+elif user_input == 6:
     print("%d corresponds with Saturday" % (user_input))
+else:
+    print("That is an invalid input")
 
