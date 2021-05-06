@@ -7,4 +7,4 @@ elif user_input == 0:
 elif user_input == 6:
     print("Its Saturday, you should sleep in.")
 else:
-    print("Sorry, that number is greater than 6")
+    print("Sorry, that number is invalid")
